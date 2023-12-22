@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var list = document.querySelector('ul');
         list.appendChild(listItem);
         document.querySelector('#task1').innerHTML='the user submitted the task:' + task;
+        alert("thankyou");
     })
     return false;
 });
